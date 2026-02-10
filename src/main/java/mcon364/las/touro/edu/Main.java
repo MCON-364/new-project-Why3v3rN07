@@ -3,7 +3,6 @@ package mcon364.las.touro.edu;
 import java.util.List;
 import java.util.Optional;
 
-//placeholder
 public class Main {
     public static Optional<String> getUserName(String envVarName) {
         if (System.getenv(envVarName) == null) return Optional.empty();
